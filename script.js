@@ -29,25 +29,25 @@ const speakers = [
       name: "SohYeong Noh",
       title: "Director of Art Centre Nabi and a board member of CC Korea",
       description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.",
-      imageUrl: "./images/Pic3.jpg"
+      imageUrl: "./images/Pic2.jpg"
   },
   {
       name: "Julia Leda",
       title: "President of Young Pirates of Europe",
       description: "European integration, political democracy and participation of youth through online as her major concern.",
-      imageUrl: "./images/Pic4.jpg"
+      imageUrl: "./images/Pic1.jpg"
   },
   {
       name: "Lila Tretikov",
       title: "Executive Director of the Wikimedia Foundation",
       description: "Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia.",
-      imageUrl: "./images/Pic5.jpg"
+      imageUrl: "./images/Pic1.jpg"
   },
   {
       name: "Ryan Merkley",
       title: "CEO of Creative Commons, ex COO of the Mozilla Foundation",
       description: "Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.",
-      imageUrl: "./images/Pic6.jpg"
+      imageUrl: "./images/Pic2.jpg"
   }
 ];
 

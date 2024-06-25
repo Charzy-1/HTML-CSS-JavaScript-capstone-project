@@ -11,6 +11,8 @@
   header {
     background-color: whitesmoke;
     margin-top: 0;
+    position: fixed;
+    width: 100vw;
   }
   
   li {
@@ -87,22 +89,21 @@
     background: url("./images/flower\ background.jpg") no-repeat center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     padding: 170px;
   }
 
   .banner-content h1 {
-    font-size: 6rem;
-    font-family: "Anton", sans-serif;
-    font-weight: bold;
+    font-size: 8rem;
+    font-family: "Bebas Neue", sans-serif;
     color: #ff4500; 
     background-image: url("./images/h1\ background.jpg");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 2px; 
+    letter-spacing: 4px; 
     text-align: left;
-    line-height: 90px;
+    line-height: 110px;
     margin: 1rem 0 2rem 0;
   }
 
@@ -123,6 +124,9 @@
   .dateAndVenue h1{
     font-family: "Oswald", sans-serif;
     font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .dateAndVenue p {
@@ -133,7 +137,6 @@
     background: url("./images/background2.jpg") no-repeat center;
     background-size: cover;
     width: 100vw;
-    /* height: 80vh; */
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -142,11 +145,12 @@
   .activity-box {
     display: flex;
     gap: 5px;
-    margin: 50px 100px 50px 150px;
+    margin: 50px 140px 50px 172px;
   }
 
   .banner2 h1 {
-    padding-top: 30px;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   .banner2 a {
@@ -185,7 +189,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 2rem 5rem;
+    margin: 2rem 7rem 2rem 10.5rem;
 }
 .speaker {
     width: 45%;
@@ -216,6 +220,64 @@ h1 {
   text-align: center;
   margin: 2rem;
  }
+
+ .partners-section {
+  text-align: center;
+  padding: 50px 0;
+  color: #ccc; /* Light grey text color */
+  background-color: #272A31;
+}
+
+.partners-section h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.underline {
+  width: 50px;
+  height: 2px;
+  background-color: #EC5242;
+  margin: 10px auto 30px auto;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between each partner */
+  flex-wrap: wrap;
+}
+
+.partner {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  color: #ccc;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.partner:hover {
+  opacity: 1;
+}
+
+.footer-section {
+  display: flex;
+  color: #272A31; /* Light grey text color */
+  background-color: whitesmoke;
+  padding: 2rem 6rem;
+  gap: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.footer-container h1{
+  text-align: left;
+  margin-left: 0;
+}
 
 
   @media (max-width: 768px) {
