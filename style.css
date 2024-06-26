@@ -166,13 +166,30 @@
 
   .aboutbanner-paragraph {
     font-size: 20px;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     background-color: white;
     border: 2px solid whitesmoke;
     padding: 15px;
     line-height: 25px;
   }
 
+  .seminar-logo {
+    text-align: center;
+  }
+
+  .seminarlogo-paragraph {
+    padding: 15px 250px;
+    font-size: 20px;
+  }
+
+  .logo-container {
+    font-size: 20px;
+    margin-bottom: 4rem;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    line-height: 25px;
+  }
   .aboutdateAndVenue p {
     font-size: 20px;
     margin-bottom: 0.7rem;
