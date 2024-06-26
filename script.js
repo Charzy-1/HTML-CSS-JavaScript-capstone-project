@@ -14,39 +14,39 @@ document.querySelectorAll('.navLink').forEach(n => n.addEventListener('click', (
 // Array of speaker objects
 const speakers = [
   {
-      name: "Yochai Benkler",
-      title: "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
-      description: "Benkler studies commons-based peer production, and published his seminal book 'The Wealth of Networks' in 2006.",
+      name: "Gabriel Aghogho",
+      title: "Risk Mangement and professsor of legal studies",
+      description: "Gabriel studies commons-based peer production, and published his seminal book 'The Wealth of Networks' in 2021.",
       imageUrl: "./images/Pic1.jpg"
   },
   {
-      name: "Kilnam Chon",
+      name: "Scholar Charles",
       title: "",
-      description: "Kilnam Chon helped bring the Internet to Asia and is an outspoken advocate for the open web and digital commons.",
+      description: "Charles Scholar helped bring the trading to Africa and is an outspoken advocate for the market analysis and digital commons.",
       imageUrl: "./images/Pic2.jpg"
   },
   {
-      name: "SohYeong Noh",
-      title: "Director of Art Centre Nabi and a board member of CC Korea",
-      description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.",
+      name: "Natasha Musonda",
+      title: "Director of Pisin techtrade member of HFM Holland",
+      description: "As the main venue for new trading tech production in Africa, Tacha promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.",
       imageUrl: "./images/Pic2.jpg"
   },
   {
-      name: "Julia Leda",
-      title: "President of Young Pirates of Europe",
-      description: "European integration, political democracy and participation of youth through online as her major concern.",
+      name: "Williams Smith",
+      title: "President of A2Z market group of Europe",
+      description: "European integration, political democracy and participation of youth through online as his major concern.",
       imageUrl: "./images/Pic1.jpg"
   },
   {
-      name: "Lila Tretikov",
-      title: "Executive Director of the Wikimedia Foundation",
-      description: "Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia.",
+      name: "Charles Adiks",
+      title: "Executive Director of the Charzy Global Services",
+      description: "Charles Adiks is the Executive Director of Charzy Global Services, the nonprofit organization that operates in Nigeria.",
       imageUrl: "./images/Pic1.jpg"
   },
   {
-      name: "Ryan Merkley",
-      title: "CEO of Creative Commons, ex COO of the Mozilla Foundation",
-      description: "Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.",
+      name: "Favaour Onoriode",
+      title: "CEO of Creative Commons, ex COO of the Charles Onoriode Foundation",
+      description: "Favour had been leading open-source projects at the HFM foundation such as the open source movement.",
       imageUrl: "./images/Pic2.jpg"
   }
 ];
