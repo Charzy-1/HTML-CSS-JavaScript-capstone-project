@@ -173,23 +173,35 @@
     line-height: 25px;
   }
 
-  .seminar-logo {
-    text-align: center;
-  }
-
   .seminarlogo-paragraph {
     padding: 15px 250px;
     font-size: 20px;
+    text-align: center;
   }
 
   .logo-container {
     font-size: 20px;
-    margin-bottom: 4rem;
+    margin: 2rem 21rem 5rem;
     background-color: white;
     border: 2px solid whitesmoke;
     padding: 15px;
     line-height: 25px;
+    text-align: center;
+    width: 50vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  .logo-container p {
+    font-size: 18px;
+  }
+
+  .underline1 {
+    width: 284px;
+    height: 1px;
+    background-color: #272A31;
+    margin: 0 auto;
+}
+
   .aboutdateAndVenue p {
     font-size: 20px;
     margin-bottom: 0.7rem;
@@ -323,6 +335,63 @@ h1 {
   opacity: 1;
 }
 
+.sumit-section {
+  text-align: center;
+}
+
+.submitsection-paragraph {
+  padding: 0px 286px;
+  font-size: 20px;
+}
+
+.summit-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.summit-box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summit-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(139, 0, 0, 0.8); /* Transparent overlay with a shade of red */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.overlay p {
+  margin: 10px 0 0 0;
+  font-size: 1rem;
+}
+
+
 .footer-section {
   display: flex;
   color: #272A31; /* Light grey text color */
@@ -331,10 +400,23 @@ h1 {
   gap: 20px;
 }
 
+.aboutfooter-section {
+  display: flex;
+  color: white; /* Light grey text color */
+  background-color: #272A31;
+  padding: 2rem 6rem;
+  gap: 20px;
+  justify-content: space-between;
+}
+
 .footer-container {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+}
+
+.aboutfooter-container {
+  width: 50vw;
 }
 
 .footer-container h1{
@@ -342,6 +424,35 @@ h1 {
   margin-left: 0;
 }
 
+.aboutfooter-container h1{
+  text-align: left;
+  margin-left: 0;
+}
+
+.custom-logobox {
+  display: flex;
+  gap: 5px;
+}
+
+.custom-logobox  .custom-logo h2 {
+    padding: 15px;
+    font-size: 30px;
+    margin-top: -6px;
+    color: #EC5242;
+  }
+
+.custom-logo {
+  border: 5px solid white;
+  margin: 5rem 0;
+  width: 9vw;
+  height: 8vh;
+}
+
+.custom-logobox  h2 {
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 35px;
+  }
 
   @media (max-width: 768px) {
     .hamburger {
