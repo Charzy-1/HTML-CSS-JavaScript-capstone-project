@@ -77,8 +77,8 @@
 
   .bar {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 45px;
+    height: 7px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -276,6 +276,19 @@
       display: none;
   }
 
+  .large-screenaboutfooter-paragraph {
+    display: block;
+  }
+
+  .small-screenaboutfooter-paragraph {
+    display: none;
+  }
+
+  .small-screen-bannerparagraph {
+    display: none;
+    color: red;
+  }
+
   .speakers-container {
     display: flex;
     flex-wrap: wrap;
@@ -320,7 +333,20 @@ h1 {
   background-color: #272A31;
 }
 
+.aboutpartners-section {
+  text-align: center;
+  padding: 50px 0;
+  color: #ccc; /* Light grey text color */
+  background-color: #272A31;
+}
+
 .partners-section h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.aboutpartners-section h2 {
   margin: 0;
   font-size: 2rem;
   color: #ccc;
@@ -350,6 +376,10 @@ h1 {
 
 .partner:hover {
   opacity: 1;
+}
+
+.aboutpartners-section {
+  display: none;
 }
 
 .sumit-section {
@@ -472,8 +502,8 @@ h1 {
   }
 
   @media (max-width: 1024px) {
-     .box {
-    height: 320px;
+    .box {
+    height: 350px;
   } 
 
   .aboutbanner-paragraph {
@@ -497,7 +527,7 @@ h1 {
 }
 
 .custom-logo {
-  height: 4vh;
+  height: 8vh;
 }
 
 .aboutfooter-section {
@@ -511,49 +541,72 @@ h1 {
 
 }
 
-  @media (max-width: 912px) {
-  .logo img {
-    width: 11vw;
-    margin-left: 100px;
+@media (max-width: 912px) {
+    .logo img {
+      width: 11vw;
+      margin-left: 100px;
+    }
+
+    .promotions {
+      margin: 1rem;
   }
 
-  .promotions {
-    margin: 1rem;
+  .banner-content h1 {
+    font-size: 8rem;
+    line-height: 110px;
+  }
+
+  .seminarlogo-paragraph {
+    padding: 15px 200px;
+    font-size: 16px;
+  }
+
+  .logo-container {
+    font-size: 20px;
+    margin: 3rem 13.5rem 5rem;
+  }
+
+  .custom-logo {
+    height: 4vh;
+  }
+
+  .custom-logobox .custom-logo h2 {
+    margin-top: -5px;
+    font-size: 20px;
+  }
+
 }
 
-.banner-content h1 {
-  font-size: 8rem;
-  line-height: 110px;
-}
+@media (max-width: 854px) {
 
-.seminarlogo-paragraph {
-  padding: 15px 200px;
-  font-size: 16px;
-}
-
-.logo-container {
-  font-size: 20px;
-  margin: 3rem 13.5rem 5rem;
-}
-
-.box {
-  height: 350px;
-}
-
-}
-
-  @media (max-width: 853px) {
-    .about-banner {
+  .about-banner {
       padding: 100px 85px;
   }
 
+  .logo img {
+    margin-left: 80px;
+}
+
   .promotions a {
-    color: red;
-    padding: 6px;
-}
+    padding: 6px; 
+  }
 
 }
 
+@media (max-width: 820px) {
+  .logo-container {
+    margin: 3rem 11.5rem 5rem;
+}
+
+.custom-logobox h2 {
+  font-size: 30px;
+}
+
+.aboutpartners-section {
+  display: block;
+}
+
+}
 
   @media (max-width: 768px) {
     header {
@@ -575,7 +628,7 @@ h1 {
     }
 
     .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-18px) rotate(-50deg);
     }
 
     .logo {
@@ -584,6 +637,7 @@ h1 {
 
     .navbar {
       box-shadow: none;
+      margin: 1rem 2rem;
     }
 
     .navMenu {
@@ -612,7 +666,7 @@ h1 {
 
       .banner {
         background-size: cover;
-        padding: 6rem 0 4rem;
+        padding: 8rem 2rem 4rem;
         background-size: cover;
         background-position: center;
       }
@@ -621,6 +675,23 @@ h1 {
       .banner-content {
         margin: 0 2rem;
       }
+
+      .banner-content h1 {
+        font-size: 7rem;
+        line-height: 100px;
+    }
+
+    .direction {
+      display: none;
+    }
+
+      .about-banner {
+          padding: 115px 60px;
+      }
+
+      .banner2 {
+        padding: 50px 10px;
+    }
 
       .banner-paragraph {
         margin: 1rem;
@@ -664,6 +735,18 @@ h1 {
           display: block;
       }
 
+      .small-screen-bannerparagraph {
+        display: block;
+      }
+
+      .large-screenaboutfooter-paragraph {
+        display: none;
+      }
+    
+      .small-screenaboutfooter-paragraph {
+        display: block;
+      }
+    
       .speakers-container {
         margin: 2rem;
     }
@@ -689,5 +772,84 @@ h1 {
     width: 400px;
   }
 
+  .aboutfooter-section {
+    background-color: white;
+    color: black;
+  }
+
+  .summit-box {
+    width: 100vw;
+    height: 400px;
+    margin: 0 4rem;
+  }
+
+  .partner1, .partner2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: "Anton", sans-serif;
+    font-size: 1.5rem;
+    color: #ccc;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+
+  .aboutpartner {
+    opacity: 0.5; /* Initial opacity */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+  .aboutpartner:hover {
+    opacity: 1;
+  }
+
+  .custom-logobox h2 {
+    font-size: 20px;
+  }
+
+  .aboutfooter-section {
+   padding: 2rem;
+  }
+
+  .aboutfooter-container h1 {
+    margin: 3rem 0 0;
+}
+
+  .custom-logobox h2 {
+    margin-top: 40px;
+  }
 
 }
+
+@media (max-width: 540px) {
+  .logo-container img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .seminarlogo-paragraph {
+    padding: 15px 50px;
+    font-size: 12px;
+  }
+
+  .logo-container {
+    margin: 3rem 5.5rem 5rem;
+    width: 70vw;
+  }
+
+  .underline {
+    margin: 10px auto;
+  }
+
+  .seminar-content {
+    font-size: 10px;
+  }
+
+  .aboutfooter-container h1 {
+    margin: 3.5rem 0 0;
+    font-size: 25px;
+  }
+}
+
+
