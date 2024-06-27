@@ -13,6 +13,7 @@
     margin-top: 0;
     position: fixed;
     width: 100vw;
+    z-index: 100;
   }
   
   li {
@@ -37,9 +38,8 @@
   }
 
   .logo img {
-    height: 9vh;
     width: 11vw;
-    margin-left: 150px;
+    margin-left: 80px;
   }
   
   
@@ -90,11 +90,11 @@
     background-size: cover;
     width: 100vw;
     align-items: center;
-    padding: 170px;
+    padding: 150px 100px;
   }
 
   .banner-content h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     font-family: "Bebas Neue", sans-serif;
     color: #ff4500; 
     background-image: url("./images/h1\ background.jpg");
@@ -102,7 +102,7 @@
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; 
     text-align: left;
-    line-height: 110px;
+    line-height: 130px;
     margin: 1rem 0 2rem 0;
   }
 
@@ -112,8 +112,8 @@
   }
 
   .banner-paragraph {
-    width: 50vw;;
-    font-size: 18px;
+    width: 60vw;;
+    font-size: 20px;
     margin-bottom: 2rem;
     background-color: whitesmoke;
     border: 2px solid white;
@@ -173,6 +173,7 @@
     line-height: 25px;
   }
 
+
   .seminarlogo-paragraph {
     padding: 15px 250px;
     font-size: 20px;
@@ -181,7 +182,7 @@
 
   .logo-container {
     font-size: 20px;
-    margin: 2rem 21rem 5rem;
+    margin: 2rem 23.5rem 5rem;
     background-color: white;
     border: 2px solid whitesmoke;
     padding: 15px;
@@ -220,12 +221,7 @@
   .activity-box {
     display: flex;
     gap: 5px;
-    margin: 50px 140px 50px 172px;
-  }
-
-  .banner2 h1 {
-    padding-top: 0;
-    margin-top: 0;
+    margin: 50px 140px 50px 100px;
   }
 
   .banner2 a {
@@ -260,12 +256,34 @@
     margin: 15px 0;
   }
 
+  .small-screen-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 35px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 11rem;
+}
+
+  .large-screen-title,
+  .large-screen-link {
+      display: block;
+  }
+
+  .small-screen-title,
+  .small-screen-button {
+      display: none;
+  }
+
   .speakers-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 2rem 7rem 2rem 10.5rem;
+    margin: 2rem 7rem 2rem 6rem;
 }
+
 .speaker {
     width: 45%;
     margin-bottom: 20px;
@@ -340,8 +358,8 @@ h1 {
 }
 
 .submitsection-paragraph {
-  padding: 0px 286px;
   font-size: 20px;
+  text-align: center;
 }
 
 .summit-container {
@@ -396,7 +414,7 @@ h1 {
   display: flex;
   color: #272A31; /* Light grey text color */
   background-color: whitesmoke;
-  padding: 2rem 6rem;
+  padding: 2rem;
   gap: 20px;
 }
 
@@ -454,7 +472,80 @@ h1 {
   font-size: 35px;
   }
 
+  @media (max-width: 1024px) {
+     .box {
+    height: 320px;
+  } 
+
+  .aboutbanner-paragraph {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.custom-logobox .custom-logo h2 {
+  padding: 9px;
+  margin-top: -11px;
+}
+
+  .logo-container {
+    font-size: 20px;
+    margin: 1rem 15.5rem 5rem;
+  }
+
+  .banner-content h1 {
+    font-size: 9rem;
+    line-height: 119px;
+}
+
+.custom-logo {
+  height: 4vh;
+}
+
+.aboutfooter-section {
+  padding: 1rem 3rem;
+}
+
+.custom-logobox .custom-logo h2 {
+  margin-top: -7px;
+  font-size: 25px;
+}
+
+}
+
+
+  @media (max-width: 912px) {
+  .logo img {
+    width: 11vw;
+    margin-left: 100px;
+  }
+
+  .promotions {
+    margin: 1rem;
+}
+
+.banner-content h1 {
+  font-size: 8rem;
+  line-height: 110px;
+}
+
+.seminarlogo-paragraph {
+  padding: 15px 200px;
+  font-size: 16px;
+}
+
+.logo-container {
+  font-size: 20px;
+  margin: 3rem 13.5rem 5rem;
+}
+
+}
+
   @media (max-width: 768px) {
+    header {
+      background-color: transparent;
+      position: absolute;
+    }
+
     .hamburger {
       display: block;
       padding-left: 38px;
@@ -476,6 +567,10 @@ h1 {
         display: none;
     }
 
+    .navbar {
+      box-shadow: none;
+    }
+
     .navMenu {
       position: fixed;
       left: -100%;
@@ -488,7 +583,7 @@ h1 {
       text-align: center;
       transition: 0.3s;
       padding: 0 20PX, 30px, 0;
-      padding-bottom: 30px;
+      padding: 30px;
 
     }
 
@@ -502,49 +597,82 @@ h1 {
 
       .banner {
         background-size: cover;
-        width: 100vw;
-        height: 90vh;
-        padding: 0px;
+        padding: 6rem 0 4rem;
+        background-size: cover;
+        background-position: center;
       }
+      
 
       .banner-content {
         margin: 0 2rem;
       }
 
-      .banner-content h1 {
-        font-size: 3rem;
-        line-height: 45px;
-        text-align: left;
-        letter-spacing: 3px;
-    }
-
-      .banner-content h2 {
-        font-size: 14px;
-        text-align: left;
-        padding-top: 20px;
-    }
-
       .banner-paragraph {
-        font-size: 15px;
-        margin: 2rem;
-        width: 80vw;
-
+        margin: 1rem;
+        width: 90vw;
       }
 
       .dateAndVenue h1{
-        font-size: 1.5rem;
         margin: 0 2rem;
       }
     
       .dateAndVenue p {
-        font-size: 1rem;
         margin: 0 2rem;
-
+      }
+      
+      .banner2 h1 {
+        margin: 0;
       }
 
       .activity-box {
         flex-direction: column;
-        padding: 30px 30px;
+        padding: 0px 30px 30px;
         margin: 0;
       }
+
+      .box {
+        height: 100px;
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+      }
+
+      .large-screen-title,
+      .large-screen-link {
+          display: none;
+      }
+    
+      .small-screen-title,
+      .small-screen-button {
+          display: block;
+      }
+
+      .speakers-container {
+        margin: 2rem;
+    }
+
+    .speaker {
+      width: 100%;
+    }
+
+    .footer-section {
+      flex-direction: column;
+      padding: 0 4rem 4rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-container {
+      align-items: center;
+      margin-top: 0;
+    } 
+
+  .footer-section img {
+    width: 400px;
+  }
+
+
 }
