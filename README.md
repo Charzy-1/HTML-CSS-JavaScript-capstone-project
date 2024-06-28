@@ -89,7 +89,7 @@ sh
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, ensure you have a browser at leat chrome to get the display
 
 
 
@@ -98,6 +98,7 @@ To run the project, execute the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+Charles Adikankwu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
