@@ -44,7 +44,7 @@ const speakers = [
       imageUrl: "./images/Pic1.jpg"
   },
   {
-      name: "Favaour Onoriode",
+      name: "Favour Onoriode",
       title: "CEO of Creative Commons, ex COO of the Charles Onoriode Foundation",
       description: "Favour had been leading open-source projects at the HFM foundation such as the open source movement.",
       imageUrl: "./images/Pic2.jpg"

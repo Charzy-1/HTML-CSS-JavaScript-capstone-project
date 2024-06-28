@@ -143,7 +143,7 @@
   .direction {
     padding: 0;
     text-align: right;
-    margin-bottom: 4rem;
+    margin: 3rem 0;
   }
 
   .about-banner .fa-solid {
@@ -602,13 +602,13 @@ h1 {
   font-size: 30px;
 }
 
-.aboutpartners-section {
-  display: block;
-}
-
 }
 
   @media (max-width: 768px) {
+    .aboutpartners-section {
+      display: block;
+    }
+
     header {
       background-color: transparent;
       position: absolute;
@@ -714,15 +714,32 @@ h1 {
         flex-direction: column;
         padding: 0px 30px 30px;
         margin: 0;
+        flex-wrap: wrap;
+        gap: 10px;
       }
 
       .box {
         height: 100px;
+        display: flex;
         width: 100%;
         text-align: left;
         padding: 20px;
         display: flex;
         gap: 10px;
+        align-items: center;
+   
+      }
+
+      .box-icon {
+        width: 10vw;
+      }
+    
+      .box-title {
+        width: 20vw;
+      }
+    
+      .box-paragraph {
+        width: 60vw;
       }
 
       .large-screen-title,
@@ -822,11 +839,15 @@ h1 {
 
 }
 
-@media (max-width: 540px) {
+@media (max-width: 541px) {
   .logo-container img {
     width: 300px;
     height: 200px;
   }
+
+  .dateAndVenue h1 {
+    font-size: 25px;
+}
 
   .seminarlogo-paragraph {
     padding: 15px 50px;
@@ -850,6 +871,258 @@ h1 {
     margin: 3.5rem 0 0;
     font-size: 25px;
   }
+
+  .small-screen-button {
+    margin-left: 3rem;
+  }
+
+  .box-icon {
+    /* border: 2px solid white; */
+    width: 15vw;
+  }
+
+  .box-title {
+    /* border: 2px solid white; */
+    width: 30vw;
+    font-size: 15px;
+  }
+
+  .box-paragraph {
+    /* border: 2px solid white; */
+    width: 50vw;
+  }
 }
+
+@media (max-width: 432px) {
+  .banner-content h1 {
+    font-size: 3rem;
+    line-height: 44px;
+  }
+  
+  .banner-content h2 {
+    font-size: 13px;
+  }
+
+  .banner-paragraph {
+    /* margin: 1rem; */
+    width: 80vw;
+  }
+
+  .dateAndVenue h1 {
+    font-size: 19px;
+  }
+
+  .dateAndVenue p {
+    font-size: 15px;
+  }
+
+  .fa-solid, .fa-brands {
+    font-size: 30px;
+  }
+
+  .box-title {
+    font-size: 12px;
+    width: 33vw;
+  }
+
+  .banner2 h1 {
+    font-size: 23px;
+  }
+
+  .box-paragraph {
+    font-size: 14px;
+  }
+
+  .small-screen-button {
+    margin-left: 4.5rem;
+    padding: 20px;
+  }
+
+  .speakers-container {
+    margin: 3rem;
+  }
+
+  .partners-section {
+    padding: 50px 20px;
+  }
+
+  .footer-section img {
+    width: 320px;
+  }
+
+  .footer-section {
+    padding: 0 2rem 4rem;
+  }
+
+  .aboutbanner-content h1 {
+    font-size: 4rem;
+    line-height: 62px;
+  }
+
+  .logo-container {
+    margin: 3rem 4rem 5rem;
+  }
+
+  .submitsection-paragraph {
+    font-size: 15px;
+  }
+
+  .summit-box {
+    margin: 0px 2rem;
+  }
+
+  .aboutfooter-container h1 {
+    margin: 1.5rem 0 0;
+    font-size: 15px;
+  }
+
+  .custom-logobox h2 {
+    margin-top: 11px;
+    font-size: 15px;
+  }
+
+  .aboutdateAndVenue h3 {
+    font-size: 12px;
+  }
+
+  .underline1 {
+    width: 250px;
+  }
+
+  .logo-container p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 415px) {
+  .about-banner {
+    padding: 115px 48px;
+  }
+
+  .logo-container p {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin: 1rem 0rem;
+  }
+
+  .banner {
+    padding: 8rem 1rem 4rem;
+  }
+
+}
+
+@media (max-width: 391px) {
+  .box-title h2 {
+    font-size: 13px;
+  }
+
+  .box-paragraph p {
+    font-size: 15px;
+  }
+
+  .small-screen-button {
+    margin-left: 3.5rem;
+  }
+
+  .footer-container h1 {
+    font-size: 25px;
+  }
+
+  .logo-container {
+    margin: 3rem 5.5rem 5rem;
+    width: 74vw;
+  }
+
+  .logo-container img {
+    width: 290px;
+    height: 150px;
+    margin: -17px;
+  }
+
+  .logo-container p {
+    font-size: 13px;
+  }
+
+  .logo-container {
+    margin: 3rem 3.2rem 5rem;
+  }
+
+  .submitsection-paragraph {
+    margin: 2rem;
+  }
+
+  .aboutpartners-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 376px) {
+  .banner-content h1 {
+    text-align: center;
+  }
+
+  .banner {
+    padding: 8rem 0rem 4rem;
+  }
+
+  .banner-paragraph {
+    width: 91vw;
+  }
+
+  .navbar {
+    margin: 1rem 0rem;
+  }
+
+  .underline1 {
+    width: 200px;
+  }
+
+  .logo-container p {
+    font-size: 12px;
+  }
+
+  .small-screen-button {
+    margin-left: 2.5rem;
+  }
+
+
+  .about-banner {
+    padding: 115px 35px;
+  }
+
+
+  .aboutdateAndVenue p {
+    font-size: 15px
+  }
+
+  .logo-container img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .summit-box {
+    height: 350px;
+  }
+
+  .aboutpartners-section h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 345px) {
+  .banner2 {
+    padding: 50px 0;
+  }
+
+  .dateAndVenue h1 {
+    font-size: 18px;
+  }
+}
+
 
 
